@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+
+
+}
+
+body{
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(108, 65, 221);
+}
+
+main{
+
+	width: 820px;
+	min-width: 600px;
+	height:900px;
+	border-radius: 4px;
+	padding: 0px 13px;
+	background-color: white;
+	border:solid black 5px;
+
+
+}
+
+.globalWidth{
+	min-width: 100%;
+
+
+}
+
+.title{
+	height: 19%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.title p{
+	font-size: 5rem;
+	font-family: 'Texturina',serif;
+	letter-spacing: 0.2rem;
+	word-spacing: 2rem;
+
+
+}
+

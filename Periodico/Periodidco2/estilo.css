@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Texturina&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+html{
+
+	font-size: 62.5%;
+
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(108, 65, 221);
+
+
+}
+
+
+main{
+
+	width: 920px;
+	min-width: 600px;
+	height: 500px;
+	border-radius: 4px;
+	padding: 0px 13px;
+	background-color: white;
+	border: solid black 1px; 
+
+
+
+}
+
+.globalWidth{
+    min-width: 100%;
+}
+.title{
+    height: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title p{
+    /* font-family: 'Pirata One'; */
+    font-family: 'Texturina', serif;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 2rem;
+}
